@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+         <!-- META -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- WEBSITE TITLE -->
+        <title>CJEN Courses</title>
+        <!-- BOXICON ICONS -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+        <!-- CDN FONTS -->
+        <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/mastery-kingdom" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/eagle-book" rel="stylesheet">
+        <link href="https://fonts.cdnfonts.com/css/space-mono" rel="stylesheet">
+        <!-- CSS -->
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body class="body-quiz-MC">
+        <!-- SIDE NAVIGATION SECTION -->
+        <nav>
+            <ul>
+                <div class="logo">
+                    <img src="logo.png"><br>
+                    <h1>CJEN Quiz Master</h1>
+                </div>
+                <li><a href="dashboard.html" target="_self">
+                    <i class='bx bxs-dashboard'></i>
+                    <span class="nav-title">Dashboard</span>
+                </a></li>
+                <li><a href="courses.html" target="_self" class="collapsible">
+                    <i class='bx bxs-book-bookmark'></i>
+                    <span class="nav-title">Courses</span>
+                </a></li>
+                <div class="profile-nav">
+                    <a href="profile.html" target="_top">
+                        <img src="profile-pic.png">
+                        <a href="profile.html"><span class="profile-title">Saoirse Ronan<br><span class="student">Student</span></span></a>
+                    </a>
+                </div>
+                <div class="logout-nav">
+                    <a href="index.html" target="_top">
+                        <i class="fasss fa-solid fa-right-from-bracket"></i>
+                        <span class="logout-title">Log Out</span>
+                    </a>
+                </div>
+                <div class="design">
+                    <img src="navpic.png" alt="study">
+                </div>
+            </ul>
+        </nav>
+        < <div class="instruction-container">
+            <div class="instruction-title">
+                <h1>CSS Quiz 1 <br>(Multiple Choice)</h1>
+                <h2>Quiz Instructions</h2>
+            </div>
+            <div class="instruction-content">
+                <ul>
+                    <li>This multiple-choice quiz consists of questions carefully designed to help you self-assess your comprehension of the information presented on the topics covered in the CSS course. No data will be collected on the website regarding your responses or how many times you take the quiz.</li>
+                    <li>Read each question carefully, and click on the button next to your response that is based on the information covered on the topic in the course.</li>
+                    <li>After responding to a question, click on the "Submit" button at the bottom to go to the next question. After responding to the 5th question, you will automatically see your quiz score.</li>
+                    <li>The total score for the quiz is based on your responses to all questions. You can try again to correct your wrong responses by clicking Continue.</li>
+                </ul>
+            </div>
+            <div class="goodluck">
+                <h2>Goodluck!</h2>
+            </div>
+        </div>
+        <div class="quiz-container" id="quiz">
+            <div class="quiz-header">
+                <h2 id="question">Question Text</h2>
+                <ul>
+                    <li>
+                        <input type="radio" name="answer" id="a" class="answer">
+                        <label for="a" id="a_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="b" class="answer">
+                        <label for="b" id="b_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="c" class="answer">
+                        <label for="c" id="c_text">Answer</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="answer" id="d" class="answer">
+                        <label for="d" id="d_text">Answer</label>
+                    </li>
+                </ul>
+            </div>
+            <button class="submit" id="submit">Submit</button>
+        </div>
+        <script src="js-quiz-MC.js"></script>
+    </body>
+</html>

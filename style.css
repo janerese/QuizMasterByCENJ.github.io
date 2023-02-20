@@ -1,0 +1,1400 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #F4F3FBff;
+    width: 100%;
+    height: 100vh;
+}
+
+
+/* LOGIN PAGE STYLE SECTION */
+
+
+.login-section{
+    position: relative;
+    width: 100%;
+    height:100vh;
+    display: flex;
+    font-family: "DM Sans";
+}
+
+.image-box{
+    position: relative;
+    width: 80%;
+    height: 100vh;
+}
+
+.content-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+
+.nav{
+    width: 100%;
+    margin-bottom: 30px;
+    position: relative;
+    box-shadow: 0 0 30px 15px #EAE8F9;
+    border-radius: 30px;
+}
+
+#button-design{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    background:linear-gradient(to right, rgb(192,183,250), rgb(121,21,243));
+    border-radius: 30px;
+    transition: transfrom .5s;
+}
+
+.nav-button {
+    padding: 10px 55px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 2.5px;
+    text-align: center;
+}
+
+/* FORM LAYOUT*/
+
+.text-box{
+    margin-bottom: 15px;
+}
+
+.text-box span{
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 300;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.text-box input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid rgb(192,183,250);
+    letter-spacing: 1px;
+    background: transparent;
+    border-radius: 10px;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.terms{
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 18px;
+    letter-spacing: .5px;
+    text-align: justify;
+}
+
+.text-box h1{
+    background: rgb(121,21,243);
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 10px;
+    text-align: center;
+}
+
+.text-box a{
+    text-decoration: none;
+}
+
+.text-box h1:hover{
+    background-color: rgb(83, 114, 186);
+}
+
+.socmed{
+    width: 100%;
+    padding: 5px;
+    position: relative;
+    border: 1px solid rgb(192,183,250);
+    letter-spacing: 1px;
+    background: transparent;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    text-align: center;
+}
+
+.socmed .btn-icon{
+    width: 25px; 
+    height: 25px; 
+    float: left;      
+}
+
+
+/* MENU LEFT SIDE NAVIGATION STYLE SECTION */
+
+
+nav{
+    position: fixed;
+    background-image: linear-gradient(#844DF3ff, #7951F3ff, #7054F6ff);
+    height: 100%;
+    width: 220px;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 0 20px 35px rgba(132, 77, 243, 0.6);
+}
+
+.logo{ 
+    text-align: center;
+    width: 210px; 
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+}
+
+.logo h1{
+    color: white;
+    font-size: 30px;
+    line-height: 90%;
+    text-transform: uppercase;
+    font-family: "Eagle";
+    font-weight: bold;
+}
+
+.logo h1:hover{
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #C0B7FAff;
+}
+
+.nav-title{
+    list-style-type: none;
+    color: white;
+    position: relative;
+    font-size: 20px;
+    text-transform: capitalize;
+    font-family: "DM Sans";
+    bottom: 5px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    position: relative;
+    display: table;
+    width: 220px;
+    margin-left: 10px;
+    top: 40px;
+}
+ 
+nav ul li a:hover{
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    background-color: #C0B7FAff;
+    color: black;
+}
+
+.bx{
+    position: relative;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    width: 70px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.design{
+    width: 200px;
+    position: relative;
+    text-align: center;
+}
+
+.design img{
+    width: 180px;
+    height: 180px;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.profile-nav{
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.profile-nav a{
+    text-decoration: none; 
+}
+
+.profile-title{
+    list-style-type: none;
+    color: white;
+    position: relative;
+    font-size: 18px;
+    text-transform: capitalize;
+    font-family: "DM Sans";
+    bottom: 20px;
+    line-height: 0px;
+    margin-left: 5px;
+}
+
+.profile-title:hover{
+    color: #C0B7FAff;
+}
+
+.profile-nav img{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+}
+
+.student{
+    font-size: 10px;
+    margin-left: 80px;
+}
+
+.logout-nav{
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    margin-left: 35px;
+    padding: 5px;
+    border-radius: 20px;
+}
+
+.logout-nav:hover{
+    background-color: #C0B7FAff;
+}
+
+.logout-nav a{
+    text-decoration: none;
+}
+
+.logout-title{
+    font-size: 15px;
+    text-transform: uppercase;
+    font-family: "DM Sans";
+    color: black;
+    margin-left: 10px;
+}
+
+.fasss{
+    color: black;
+}
+
+
+/* USER PROFILE RIGHT SIDE NAVIGATION */
+
+
+.user-nav{
+    position: fixed;
+    width: 300px;
+    height: 100%;
+    right: 0px;
+    background-color: #F4F3FBff;
+    z-index: 1;
+    overflow: hidden;
+    border-left: 0.1px solid rgba(0, 0, 0, 0.3);
+}
+
+.user-nav-content{
+    padding: 20px;
+    text-align: center;
+}
+
+.user-nav-title{
+    color: black;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.user-nav-title h1{
+    font-family: "Space Mono";
+    letter-spacing: 1px;
+    color: black;
+    font-size: 20px;
+}
+
+.user-nav-title a:hover{
+    transform: scale(1.1);
+}
+
+.fas{
+    color: black;
+    font-size: 25px;
+}
+
+.fas:hover{
+    color: #C0B7FAff;
+}
+
+.user-nav-profile img{
+    width: 120px;
+    height: 120px;
+    position: relative;
+    border-radius: 60px;
+    border: 2px dashed #7951F3ff;
+    margin-top: 20px;
+}
+
+.user-nav-profile h2{
+    font-family: "DM Sans";
+    background-image: linear-gradient(to bottom right, #C0B7FAff, #7951F3ff, #7054F6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.user-nav-profile p{
+    font-family: "DM Sans";
+    color: black;
+    font-size: 15px;
+}
+
+.messages{
+    margin-top: 20px;
+}
+
+.messages-title{
+    display: flex;
+    justify-content: space-between;
+}
+
+.messages-title h1{
+    font-family: "Space Mono";
+    font-size: 20px;
+    color: #2E2A28ff;
+    letter-spacing: 1px;
+}
+
+.messages img{
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+.messages img:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+}
+
+.messages ul{
+    margin-top: 10px;
+}
+.messages ul li{
+    display: flex;
+    line-height: 10px;
+    margin: 5px;
+}
+
+.user1, .user2, .user3{
+    padding-left: 20px;
+    text-align: left;
+}
+
+.user1 h1, .user2 h1, .user3 h1{
+    font-size: 15px;
+    font-family: "DM Sans";
+    margin-top: 10px;
+    color: #2E2A28ff;
+}
+
+.user1 a, .user2 a, .user3 a{
+    font-size: 10px;
+    font-family: "DM Sans";
+    color:black;
+}
+
+.new-message{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #7951F3ff;
+    border: 2px dashed white;
+}
+
+.new-message a{
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    font-family: "DM Sans";
+    margin-left: 5px;
+}
+
+.new-message:hover{
+    background-color: #C0B7FAff;
+}
+
+.fass{
+    color: white;
+    font-size: 15px;
+}
+
+.todo{
+    text-align: left;
+}
+
+.todo h1{
+    text-align: center;
+    margin-top: 15px;
+    font-family: "Space Mono";
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    color: #2E2A28ff;
+}
+
+.todo input{
+    font-size: 10px;
+}
+.todo label{
+    font-family: "DM Sans";
+}
+
+.container{
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 15px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin-top: 10px;
+}
+
+.container input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+}
+
+.container:hover input ~ .checkmark{
+    background-color: #C0B7FAff;
+}
+
+.container input:checked ~ .checkmark{
+    background-color: #7951F3ff;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.container input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.container .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+/* DASHBOARD HEADER STYLE SECTION */
+
+header{
+    height: 70px;
+    align-items: center;
+    position: relative;
+    width: 75%;
+    padding-left: 260px;
+    padding-top: 20px;
+    background-color: #F4F3FBff;
+}
+
+.header-content{
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    font-family: "Mastery Kingdom";
+    letter-spacing: 1px;
+    font-size: 40px;
+    background-image: linear-gradient(to bottom right, #C0B7FAff, #7951F3ff, #7054F6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.welcome{
+    font-size: 20px;
+    font-family: "Space Mono";
+    color: black;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.subsec{
+    display: flex;
+    width: 200px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subsec h3{
+    font-family: "DM Sans";
+    color: black;
+}
+
+.search{
+    text-align: center;
+    padding-left: 270px;
+}
+
+.search input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #C0B7FAff;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 20px 10px 40px;
+}
+  
+
+/* DASHBOARD COURSES NAVIGATION STYLE */
+.dashboard-content{
+    padding-left: 260px;
+    width: 75%;
+    background-color: #F4F3FBff;
+}
+
+.dashboard-main-courses{
+    margin-top: 20px;
+    text-transform: capitalize;
+    background-color: #F4F3FBff;
+}
+
+.dashboard-main-courses h1{
+    font-family: "Space Mono";
+    font-size: 20px;
+    color: black;
+}
+
+.dashboard-courses-box{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: white;
+    border-radius: 10px;
+}
+
+.dashboard-courses-box .dashboard-courses{
+    display: flex;
+}
+
+.dashboard-box{
+    height: 230px;
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #F4F3FBff;
+    font-family: "DM Sans";
+}
+
+.dashboard-box:hover{
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.dashboard-box h5{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.dashboard-box .title-course1{
+    color: rgb(234, 93, 5);
+}
+
+.dashboard-box .title-course2{
+    color: rgba(28, 98, 179);
+}
+
+.dashboard-box .title-course3{
+    color: rgba(104, 179, 35);
+}
+
+.dashboard-box a{
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.dashboard-box .toquiz{
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.dashboard-box p{
+    font-size: 12px;
+    margin-top: 2.5px;
+}
+
+.dashboard-box button{
+    background: black;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.dashboard-box a:hover{
+    color: #44b927;
+}
+.dashboard-box button:hover{
+    background: #7F4FF3;
+}
+
+.dashboard-box i{
+    font-size: 7rem;
+    float: right;
+    margin: -40px 20px 20px 0;
+}
+
+.html{
+    color: rgb(234, 93, 5);
+}
+
+.css{
+    color: rgba(28, 98, 179);
+}
+
+.js{
+    color: rgba(104, 179, 35);
+}
+
+
+/* CALENDAR STYLE SECTION */
+
+
+.calendar{
+    background-color: #F4F3FBff;
+    padding-top: 30px;
+    font-family: "DM Sans";
+}
+
+.calendar h1{
+    font-size: 20px;
+    font-family: "Space Mono";
+    color: black;
+    padding: 0 10px 10px 0;
+}
+
+.calendar ul {
+    list-style-type: none;
+}
+
+.calendar li:hover{
+    transform: scale(1.1);
+    transition: 0.2s;
+    color: #44b927;
+}
+.month {
+    padding: 10px;
+    width: 100%;
+    background: #844DF3ff;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: "Space Mono";
+}
+
+.month .prev {
+    float: left;
+}
+
+.month .next{
+    float: right;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 15px 0;
+    background-color: #C0B7FAff;
+    font-size: 15px;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: black;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: white;
+    margin: 0;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:14px;
+    color: black;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #844DF3ff;
+    color: white !important
+}
+
+
+/* COURSES PAGE STYLE SECTION */
+
+.courses-header{
+    height: 60px;
+    align-items: center;
+    position: relative;
+    padding-left: 280px;
+    padding-top: 10px;
+    background-color: #F4F3FBff;
+}
+
+.courses-search{
+    text-align: center;
+    margin-left: 600px;
+}
+
+.courses-search input[type=text] {
+    width: 420px;
+    box-sizing: border-box;
+    border: 2px solid #C0B7FAff;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 100px 10px 40px;
+}
+
+.main{
+    position: relative;
+    padding-left: 280px;
+    width: 95%;
+    padding-top: 20px;
+}
+
+.main-top{
+    display: flex;
+    width: 100%;
+}
+
+.main-top h1{
+    font-size: 20px;
+    margin-bottom: 5px;
+    font-family: "Space Mono";
+}
+
+.main-skills{
+    display: flex;
+    font-family: "DM Sans";
+}
+
+.main-skills .card{
+    width: 25%;
+    height: 180px;
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.main-skills .card:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.main-skills .card h3{
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main-skills .card p{
+    font-size: 12px;
+}
+
+.main-skills a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-skills .card button{
+    background: #844DF3ff;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.main-skills .card button:hover{
+    background: black;
+}
+
+.main-skills .card i{
+    font-size: 22px;
+    padding: 10px;
+}
+
+
+/* Courses */
+
+.main-courses h1{
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: "Space Mono";
+    font-size: 20px;
+}
+
+.courses-box{
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+    font-family: "DM Sans";
+    text-transform: capitalize;
+}
+
+.courses-box ul{
+    list-style: none;
+    display: flex;
+}
+
+.courses-box ul li{
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.courses-box ul .active{
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.courses-box .courses{
+    display: flex;
+}
+
+.box{
+    width: 33%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    background: #F4F3FBff;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.box:hover{
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.box h5{
+    font-size: 12px;
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+.box .title-course1{
+    color: rgb(234, 93, 5);
+}
+
+.box .title-course2{
+    color: rgba(28, 98, 179);
+}
+
+.box .title-course3{
+    color: rgba(104, 179, 35);
+}
+
+
+.box a{
+    font-size: 15px;
+    margin-top: 3px;
+    font-weight: bold;
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.box a:hover{
+    color: #44b927;
+}
+
+.box .toquiz{
+    color:rgb(255, 255, 255);
+    font-weight: normal;
+    font-size: 14px;
+}
+
+.box p{
+    font-size: 12px;
+    margin-top: 2.5px;
+}
+
+.box button{
+    background: black;
+    color: #fff;
+    padding: 7px 10px;
+    border-radius: 10px;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.box button:hover{
+    background: #7F4FF3;
+    color: white;
+}
+
+.box i{
+    font-size: 7rem;
+    float: right;
+    margin: -20px 20px 20px 0;
+}
+
+.html{
+    color: rgb(234, 93, 5);
+}
+
+.css{
+    color: rgba(28, 98, 179);
+}
+
+.js{
+    color: rgba(104, 179, 35);
+}
+
+
+/* PROFILE PAGE STYLE SECTION */
+
+
+.profile-header{
+    height: 60px;
+    position: relative;
+    padding-left: 280px;
+    padding-top: 20px;
+    background-color: #F4F3FBff;
+}
+
+.profile-search{
+    margin-left: 450px;
+}
+
+.profile-search input[type=text] {
+    width: 420px;
+    box-sizing: border-box;
+    border: 2px solid #C0B7FAff;
+    border-radius: 20px;
+    font-size: 15px;
+    background-color: white;
+    background-image: url('searchicon.png');
+    background-size: 15px;
+    background-position: 10px 10px; 
+    background-repeat: no-repeat;
+    padding: 10px 100px 10px 40px;
+}
+
+.profile-user{
+    padding-left: 20px;
+    top: 110px;
+    position: fixed;
+    width: 400px;
+    height: 80%;
+    right: 30px;
+    background-color: #F4F3FBff;
+    z-index: 1;
+    overflow: hidden;
+    border-left: 0.1px solid rgba(0, 0, 0, 0.3);
+}
+
+.profile-user-content{
+    padding: 20px;
+    text-align: center;
+}
+
+
+.profile-user-side img{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 60px;
+    border: 4px solid #7951F3ff;
+}
+
+.profile-user-side h1{
+    font-family: "DM Sans";
+    background-image: linear-gradient(to bottom right, #C0B7FAff, #7951F3ff, #7054F6ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: "Space Mono";
+}
+
+.profile-user-side h3{
+    font-family: "DM Sans";
+    color: black;
+    font-size: 20px;
+}
+.profile-user-side p{
+    font-family: "DM Sans";
+    color: black;
+    font-size: 15px;
+}
+
+.profile-basic-info h2{
+    font-family: "Space Mono";
+    margin-top: 20px;
+}
+
+.profile-basic-info ul{
+    text-align: left;
+    font-family: "DM Sans";
+}
+
+.profile-basic-info ul li{
+    list-style-type: none;
+    display: flex;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.profile-basic-info p{
+    padding-left: 10px;
+}
+
+.profile-page{
+    padding-left: 240px;
+}
+
+.main-profile{
+    left: 0;
+    position: relative;
+    width: 60%;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.main-profile-content h1{
+    font-family: "Space Mono";
+    padding-bottom: 10px;
+}
+
+.welcome-back{
+    background-image: url(welcome.png);
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.welcome-back:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.welcome-back h1{
+    color: white;
+}
+
+.welcome-back p{
+    font-family: "DM Sans";
+    color: white;
+}
+
+.bio{
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.bio p{
+    font-family: "DM Sans";
+}
+
+.performance h1{
+    margin-top: 10px;
+}
+.performance img{
+    height: 220px;
+    width: 50%px;
+}
+
+.performance img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.main-profile h1{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
+
+.body-quiz-MC{
+    background-image: linear-gradient(to right, #7F4FF3 30%,#C0b7fa, #A9C9FF);
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.quiz-container{    
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 700px;
+    height: 600px;
+    overflow: hidden;
+    align-items: right;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 15px;
+    font-family: "DM Sans";
+}
+
+.instruction-container{
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 2px rgba(100, 100, 100, 0.1);
+    width: 300px;
+    height: 600px;
+    overflow: hidden;
+    align-items: right;
+    justify-content: center;
+    margin-top: 5%;
+    margin-left: 25%;
+}
+
+.instruction-container h1{
+    font-family: "Space Mono";
+    font-size: 30px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    letter-spacing: -2px;
+    line-height: 1.1;
+    margin-top: 10px;
+}
+
+.instruction-title h2{
+    font-family: "DM Sans";
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    padding: 5px;
+}
+
+.instruction-content ul{
+    list-style-type: square;
+    padding-left: 30px;
+    text-align: justify;
+    width: 90%;
+}
+
+.instruction-content ul li{
+    padding-top: 10px;
+    text-align: justify;
+    font-family: "DM Sans";
+    font-size: 14px;
+    line-height: 1.1;
+}
+
+.quiz-header{
+    padding: 4rem;
+}
+
+.goodluck h2{
+    text-align: center;
+    font-family: "Space Mono";
+    padding-top: 10px;
+}
+  
+.quiz-header h2{
+    padding: 1rem;
+    text-align: justify;
+    font-size: 20px;
+    margin: 0;
+}
+
+h4{
+    padding: 1rem;
+    margin-top: 25%;
+    text-align: center;
+    font-size: 50px;
+    
+}
+  
+.quiz-header ul{
+    list-style-type: none;
+    padding: 1rem;
+}
+  
+.quiz-header ul li{
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 15px;
+    align-items: center;
+}
+  
+.quiz-header ul li label{
+    cursor: pointer;
+    text-align: justify;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.quiz-header ul li label:hover{
+    color:#7F4FF3;
+}
+
+.quiz-header input[type="radio"]{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.submit{
+    background-color: #7F4FF3;
+    color: #fff;
+    position: fixed;
+    border-radius: 10px;
+    border-color: #03cae4;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 10px;
+    bottom: 100px;
+    right: 200px;
+    padding: 10px;
+    font-family: "DM Sans";
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+  
+.submit:hover{
+    background-color: #04adc4;
+}
+
+.submit:focus{
+    outline: none;
+    background-color: #44b927;
+}
+
+.continue{
+    background-color: #7F4FF3;
+    color: #fff;
+    position: fixed;
+    border-radius: 10px;
+    border-color: #03cae4;
+    width: 120px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-family: inherit;
+    padding: 10px;
+    bottom: 100px;
+    right: 200px;
+    padding: 10px;
+    font-family: "DM Sans";
+    text-transform: uppercase;
+    font-weight: bolder;
+    letter-spacing: 1px;
+}

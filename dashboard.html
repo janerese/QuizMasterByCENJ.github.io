@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- META -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- WEBSITE TITLE -->
+    <title>CJEN Dashboard</title>
+    <!-- BOXICON ICONS -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <!-- CDN FONTS -->
+    <link href="https://fonts.cdnfonts.com/css/dm-sans" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/mastery-kingdom" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/eagle-book" rel="stylesheet">
+    <link href="https://fonts.cdnfonts.com/css/space-mono" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <!-- SIDE NAVIGATION SECTION -->
+    <nav>
+        <ul>
+            <div class="logo">
+                <img src="logo.png"><br>
+                <h1>CJEN Quiz Master</h1>
+            </div>
+            <li><a href="dashboard.html" target="_self">
+                <i class='bx bxs-dashboard'></i>
+                <span class="nav-title">Dashboard</span>
+            </a></li>
+            <li><a href="courses.html" target="_self" class="collapsible">
+                <i class='bx bxs-book-bookmark'></i>
+                <span class="nav-title">Courses</span>
+            </a></li>
+            <div class="profile-nav">
+                <a href="profile.html" target="_top">
+                    <img src="profile-pic.png">
+                    <a href="profile.html"><span class="profile-title">Saoirse Ronan<br><span class="student">Student</span></span></a>
+                </a>
+            </div>
+            <div class="logout-nav">
+                <a href="index.html" target="_top">
+                    <i class="fasss fa-solid fa-right-from-bracket"></i>
+                    <span class="logout-title">Log Out</span>
+                </a>
+            </div>
+            <div class="design">
+                <img src="navpic.png" alt="study">
+            </div>
+        </ul>
+    </nav>
+
+    <!-- USER PROFILE SIDE NAVIGATION -->
+    <div class="user-nav">
+        <div class="user-nav-content">
+            <div class="user-nav-title">
+                <h1>Student Profile</h1>
+                <a href="profile.html"><i class="fas fa-solid fa-pen-to-square"></i></a>
+            </div>
+            <div class="user-nav-profile">
+                <img src="profile-pic.png" alt="Profile Pic">
+                <h2>Saoirse Ronan</h2>
+                <p>Computer Engineering Student</p>
+            </div>
+            <div class="messages">
+                <div class="messages-title">
+                    <h1>Messages</h1>
+                    <i class="fas fa-solid fa-bell"></i>
+                </div>
+                <ul>
+                    <li>
+                        <img src="henry.png">
+                        <div class="user1">
+                            <h1>Henry Cavill</h1>
+                            <a href="mailto:henry@gmail.com">henry@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="jungkook.png">
+                        <div class="user2">
+                            <h1>Jeon Jungkook</h1>
+                            <a href="mailto:jungkook@gmail.com">jungkook@gmail.com</a>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="timothee.png">
+                        <div class="user3">
+                            <h1>Timothée Chalamet</h1>
+                            <a href="mailto:timothee@gmail.com">timothee@gmail.com</a>
+                        </div>
+                    </li>
+                </ul>
+                <div class="new-message">
+                    <i class="fass fa-solid fa-plus"></i>
+                    <a href="mailto:groupact1@gmail.com">Create New Message</a>
+                </div>
+                <div class="todo">
+                    <h1>To do list</h1>
+                    <label class="container">HTML Quiz
+                        <input type="checkbox" checked="checked">
+                        <span class="checkmark"></span>
+                        </label>
+                        
+                        <label class="container">CSS Quiz
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        
+                        <label class="container">JavaScript Quiz
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Review Python
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Finish Group Activity 1
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                        <label class="container">Finish DSA Seatwork
+                        <input type="checkbox">
+                        <span class="checkmark"></span>
+                        </label>
+                </div> 
+            </div>
+        </div>
+    </div>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <div class="header-content">
+            <h1>Dashboard</h1>
+            <span class="welcome">Welcome,&nbspSaoirse</span>
+            <div class="search">
+                <input type="text" name="search" placeholder="Search..">
+            </div>       
+        </div>
+        
+    </header>
+
+    <div class="dashboard-content">
+        <section class="dashboard-main-courses">
+            <h1>My Courses</h1>
+            <div class="dashboard-courses-box">
+                <div class="dashboard-courses">
+                    <div class="dashboard-box">
+                        <h3>HTML</h3>
+                        <h5 class="title-course1">Hypertext Markup Language</h5>
+                        <p>80% | Progress</p>
+                        <p><br>to-do list:</p>
+                        <a href="html-quiz-MC.html">Quiz 1<br></a>
+                        <a href="html-quiz-TF.html">Quiz 2<br></a>
+                        <button><a href="html-quiz-MC.html" class="toquiz">continue</a></button>
+                        <i class="fab fa-html5 html"></i>
+                    </div>
+                    <div class="dashboard-box">
+                        <h3>CSS</h3>
+                        <h5 class="title-course2">Cascading Style Sheets</h5>
+                        <p>50% | Progress</p>
+                        <p><br>to-do list:</p>
+                        <a href="css-quiz-MC.html">Quiz 1<br></a>
+                        <a href="css-quiz-TF.html">Quiz 2<br></a>
+                        <button><a href="css-quiz-MC.html" class="toquiz">continue</a></button>
+                        <i class="fab fa-css3-alt css"></i>
+                    </div>
+                    <div class="dashboard-box">
+                        <h3>JavaScript</h3>
+                        <h5 class="title-course3"> JavaScript</h5>
+                        <p>30% | Progress</p>
+                        <p><br>to-do list:</p>
+                        <a href="js-quiz-MC.html">Quiz 1<br></a>
+                        <a href="js-quiz-TF.html">Quiz 2<br></a>
+                        <button><a href="js-quiz-MC.html" class="toquiz">continue</a></button>
+                        <i class="fab fa-js-square js"></i>
+                    </div>
+                </div>
+            </div>    
+        </section>
+        <div class="calendar">
+            <h1>Calendar</h1>
+            <div class="month">
+                <ul>
+                <li class="prev">&#10094;</li>
+                <li class="next">&#10095;</li>
+                <li class="month-title">NOVEMBER 2022</span></li>
+                </ul>
+            </div>
+            
+            <ul class="weekdays">
+                <li>Sunday</li>
+                <li>Monday</li>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+            </ul>
+            
+            <ul class="days">
+                <li></li>
+                <li></li>
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li>7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li><span class="active">21</span></li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
